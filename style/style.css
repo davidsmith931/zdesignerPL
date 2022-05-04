@@ -21,6 +21,13 @@ body {
   font-family: "Satisfy", cursive;
 }
 
+.project {
+  margin-left: 20px;
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
 .blueLetters {
   color: rgb(80, 83, 255);
 }
