@@ -1,10 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Satisfy&display=swap");
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-color: black;
+}
+
+.navbar {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container {
@@ -24,8 +29,10 @@ body {
 .project {
   margin-left: 20px;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 .blueLetters {
@@ -51,7 +58,7 @@ body {
   width: 100%;
 }
 
-a:focus {
+.containerGrid a:focus {
   border: 2px solid blue;
   width: calc(100% - 4px);
   height: calc(100% - 4px);
